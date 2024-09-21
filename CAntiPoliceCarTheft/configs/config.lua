@@ -14,7 +14,7 @@ Config.Notify = {
     Message = "Bu aracı süremezsiniz! Mesleğiniz uygun değil !",
     Type = "error",
     Time = 5000,
-    Custom = {
+    Custom = { -- QBCoreNotify = false ise
         ExportResourceName = "cf-notify",
         ExportFunctionName = "sendnotify"
     }
